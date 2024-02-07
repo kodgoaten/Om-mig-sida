@@ -1,0 +1,115 @@
+body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.förallabakgrunder{
+    background-size: 100%;
+    min-height: 100%;
+}
+.bakgrund1 {
+    background-image:linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(Bakgrundsbild.jpg);
+}
+
+.positionering {
+    margin: auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.bildpåmig{
+    margin: auto;
+    display:block;
+    margin-top: -10px;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    border: 3px solid white
+}
+
+h1 {
+    font-size: 50px;
+    color: yellow;
+}
+
+.p1 {
+    color: white
+}
+
+h2 {
+    margin-top: 35px;
+    color: yellow
+}
+
+.länk1{
+    color: white;
+    margin: 0px 20px;
+}
+
+.länk2{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    top: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.lista{
+    margin: 75px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.lista ul li{
+    margin-bottom: 50px;
+}
+
+.lista img {
+    width: 400px;
+}
+
+.bakgrund2 {
+    background-image:linear-gradient(rgba(255, 255, 255,0.50), rgba(255, 255, 255,0.50)), url(Bakgrund2.jpg.avif);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bakgrund3 {
+    background-image: url(bakgrund3.jpg);
+}
+
+.nationalitet{
+    position: relative;
+    top: 50px;;
+}
+
+.nationalitettext {
+    position: absolute;
+  padding: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.holland {
+    top:65%;
+    left:8%;
+    width: 180px;
+}
+
+.sverige {
+    top: 35%;
+    left: 42%;
+    width: 180px
+}
+
+.usa {
+    top: 88%;
+    left: 34%;
+}
